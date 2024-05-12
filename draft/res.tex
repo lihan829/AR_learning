@@ -1,0 +1,55 @@
+% res.tex	
+%\documentclass{standalone}
+%\usepackage{tikz}
+%\usetikzlibrary{fit} % Importing the fit library
+%\input{formatting}
+
+%\begin{document}
+	\begin{tikzpicture}[node distance=1.4cm, thick]
+		% First figure \0
+		\node [] (labela) at (-1,2) {(a)};
+		\node [state, label=below right:1] (s1) at (0,0) {$\sigma$};
+		\node [thick,state, label=below right:2] (s2) at (1.5,0) {$\sigma$};
+		\node [thick,state, label=below right:3] (s3) at (3,0) {$\sigma$};
+		\node [state, label=below left:3] (t1) at (0,2) {H};
+		\node [thick,state, label=below left:4] (t2) at (1.5,2) {L};
+		\node [thick,state, label=below left:5] (t3) at (3,2) {H};
+		\draw [->] (t1) edge[above] node{\scriptsize{}} (t2);
+		\draw [->] (s1) edge[above] node{\scriptsize{}} (s2);
+		\draw [thick,->] (s2) edge[above] node{\scriptsize{}} (s3);
+		\draw [-] (t1) edge[left] node{\scriptsize{}} (s1);
+		\draw [->] (t2) edge[above] node{\scriptsize{}} (t3);
+		\draw [thick,-] (t2) edge[left] node{\scriptsize{}} (s2);
+		\draw [thick,-] (t2) edge[left] node{\scriptsize{}} (s3);
+		\draw [thick,-] (t3) edge[left] node{\scriptsize{}} (s3);
+
+		% Third figure
+		\node [] (labelb) at (6,-5) {(c)};
+		\node [thick,state, label=below right:1] (s2c) at (7,-5) {$\sigma$};
+		\node [thick,state, label=below right:2] (s3c) at (8.5,-5) {$\sigma$};
+		\node [thick,state, label=below left:3] (t2c) at (7,-3) {L};
+		\node [thick,state, label=below left:4] (t3c) at (8.5,-3) {H};
+		\draw [thick,->] (s2c) edge[above] node{\scriptsize{}} (s3c);
+		\draw [thick,-] (t2c) edge[left] node{\scriptsize{}} (s2c);
+		\draw [thick,-] (t2c) edge[left] node{\scriptsize{}} (s3c);
+		\draw [thick,-] (t3c) edge[left] node{\scriptsize{}} (s3c);
+
+		% Second figure
+		\node [] (labelc) at (6,2) {(b)};
+		\node [thick,state, label=below right:2] (s2b) at (7,0) {$\sigma$};
+		\node [thick,state, label=below right:3] (s3b) at (8.5,0) {$\sigma$};
+		\node [thick,state, label=below left:4] (t2b) at (7,2) {L};
+		\node [thick,state, label=below left:5] (t3b) at (8.5,2) {H};
+		\draw [thick,->] (s2b) edge[above] node{\scriptsize{}} (s3b);
+		\draw [thick,-] (t2b) edge[left] node{\scriptsize{}} (s2b);
+		\draw [thick,-] (t2b) edge[left] node{\scriptsize{}} (s3b);
+		\draw [thick,-] (t3b) edge[left] node{\scriptsize{}} (s3b);
+		
+		% Arrows and labels
+		\draw [shorten <=1mm, shorten >=1mm, ->, >=stealth, thick] (4,0.8) -- (6,0.8) node[midway, above] {restriction};
+		\draw [shorten <=1mm, shorten >=1mm, <->, >=stealth, thick] (8,-0.7) -- (8,-2.5) node[midway, right] {relation-preserving bijection};
+		\draw [shorten <=1mm, shorten >=1mm, ->, >=stealth, thick] (1.5,-1) -- (6,-4) node[midway, sloped, above] {superfactor of};
+		\draw [shorten <=1mm, shorten >=1mm, <-, >=stealth, thick] (1.2,-1) -- (5.7,-4) node[midway, sloped, below] {subfactor of};
+	\end{tikzpicture}
+%\end{document}
+

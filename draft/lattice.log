@@ -1,0 +1,1234 @@
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023)  (format=lualatex 2024.3.11)  8 MAY 2024 23:46
+ restricted system commands enabled.
+**lattice.tex
+(./lattice.tex
+LaTeX2e <2022-11-01> patch level 1
+Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
+Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/Users/lihan/Library/texlive/2023/t
+exmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-res
+olved path "/usr/local/texlive/2023/texmf-dist/tex/luatex/luaotfload/fontloader-
+2022-10-03.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.120
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/Users/lihan/Library/texlive/2023/t
+exmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programm
+ing layer <2023-02-22>
+Inserting `tracingstacklevels' in `input_level_string'.
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 \begin{tikzpicture}
+                      [scale=0.6, font=\scriptsize]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 \begin{tikzpicture}[
+                       scale=0.6, font=\scriptsize]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.98 \begin{tikzpicture}[scale=0.6, font=\scriptsize
+                                                  ]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.100     \node
+              (41)  [red] at (-3,3)  {HLHL};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.101     \node
+              (42)  [right of= 41, red]  {\hlhs};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101     \node (42)  [right of= 41, red]  {\hlhs
+                                               };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+\hlhs ...box.center), scale=0.35,font=\scriptsize 
+                                                  ] \node (H) at (0,0) {HLH}...
+l.101     \node (42)  [right of= 41, red]  {\hlhs
+                                               };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hlhs ...er), scale=0.35,font=\scriptsize ] \node 
+                                                  (H) at (0,0) {HLH}; \node ...
+l.101     \node (42)  [right of= 41, red]  {\hlhs
+                                               };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hlhs ...ptsize ] \node (H) at (0,0) {HLH}; \node 
+                                                  (sigma1) at (0,-0.8) {$\si...
+l.101     \node (42)  [right of= 41, red]  {\hlhs
+                                               };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 101.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 101.
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101     \node (42)  [right of= 41, red]  {\hlhs
+                                               };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.102     \node
+              (43)  [right of= 42, red]  {\hlss};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102     \node (43)  [right of= 42, red]  {\hlss
+                                               };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+\hlss ...box.center), scale=0.35,font=\scriptsize 
+                                                  ] \node (H) at (0,0) {HL};...
+l.102     \node (43)  [right of= 42, red]  {\hlss
+                                               };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hlss ...er), scale=0.35,font=\scriptsize ] \node 
+                                                  (H) at (0,0) {HL}; \node (...
+l.102     \node (43)  [right of= 42, red]  {\hlss
+                                               };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hlss ...iptsize ] \node (H) at (0,0) {HL}; \node 
+                                                  (sigma1) at (0,-0.8) {$\si...
+l.102     \node (43)  [right of= 42, red]  {\hlss
+                                               };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102     \node (43)  [right of= 42, red]  {\hlss
+                                               };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.103     \node
+              (44)  [right of= 43, red]  {\hsl};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103     \node (44)  [right of= 43, red]  {\hsl
+                                              };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+\hsl ... box.center), scale=0.35,font=\scriptsize 
+                                                  ] \node (H) at (0,0) {H}; ...
+l.103     \node (44)  [right of= 43, red]  {\hsl
+                                              };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hsl ...ter), scale=0.35,font=\scriptsize ] \node 
+                                                  (H) at (0,0) {H}; \node (L...
+l.103     \node (44)  [right of= 43, red]  {\hsl
+                                              };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hsl ...criptsize ] \node (H) at (0,0) {H}; \node 
+                                                  (L) at (0.5,0) {L}; \node ...
+l.103     \node (44)  [right of= 43, red]  {\hsl
+                                              };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hsl ...0,0) {H}; \node (L) at (0.5,0) {L}; \node 
+                                                  (sigma) at (0,-0.8) {$\sig...
+l.103     \node (44)  [right of= 43, red]  {\hsl
+                                              };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hsl ...de (sigma) at (0,-0.8) {$\sigma $}; \draw 
+                                                  [-] (H) -- (sigma); \end {...
+l.103     \node (44)  [right of= 43, red]  {\hsl
+                                              };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103     \node (44)  [right of= 43, red]  {\hsl
+                                              };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.104     \node
+              (45)  [right of= 44]  {\htones};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104     \node (45)  [right of= 44]  {\htones
+                                            };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+\htones ...x.center), scale=0.35,font=\scriptsize 
+                                                  ] \node (H) at (0,0) {H}; ...
+l.104     \node (45)  [right of= 44]  {\htones
+                                            };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\htones ...), scale=0.35,font=\scriptsize ] \node 
+                                                  (H) at (0,0) {H}; \node (s...
+l.104     \node (45)  [right of= 44]  {\htones
+                                            };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\htones ...ptsize ] \node (H) at (0,0) {H}; \node 
+                                                  (sigma1) at (0,-0.8) {$\si...
+l.104     \node (45)  [right of= 44]  {\htones
+                                            };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\htones ...sigma1) at (0,-0.8) {$\sigma $}; \node 
+                                                  (sigma2) at (0.5,-0.8){$\s...
+l.104     \node (45)  [right of= 44]  {\htones
+                                            };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\htones ...igma2) at (0.5,-0.8){$\sigma $}; \draw 
+                                                  [-] (H) -- (sigma1); \end ...
+l.104     \node (45)  [right of= 44]  {\htones
+                                            };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.104     \node (45)  [right of= 44]  {\htones
+                                            };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.105     \node
+              (46)  [right of= 45] {\hsss};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105     \node (46)  [right of= 45] {\hsss
+                                         };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+\hsss ...box.center), scale=0.35,font=\scriptsize 
+                                                  ] \node (H) at (0,0) {H}; ...
+l.105     \node (46)  [right of= 45] {\hsss
+                                         };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hsss ...er), scale=0.35,font=\scriptsize ] \node 
+                                                  (H) at (0,0) {H}; \node (s...
+l.105     \node (46)  [right of= 45] {\hsss
+                                         };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hsss ...riptsize ] \node (H) at (0,0) {H}; \node 
+                                                  (sigma1) at (0,-0.8) {$\si...
+l.105     \node (46)  [right of= 45] {\hsss
+                                         };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hsss ... (sigma1) at (0,-0.8) {$\sigma $}; \node 
+                                                  (sigma2) at (0.35,-0.8){$\...
+l.105     \node (46)  [right of= 45] {\hsss
+                                         };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hsss ...sigma2) at (0.35,-0.8){$\sigma $}; \node 
+                                                  (sigma3) at (0.7,-0.8){$\s...
+l.105     \node (46)  [right of= 45] {\hsss
+                                         };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105     \node (46)  [right of= 45] {\hsss
+                                         };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.106     \node
+              (31)  [below of= 42, red]  {HLH};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.107     \node
+              (32)  [below of= 43, red] {\hlsyl};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107     \node (32)  [below of= 43, red] {\hlsyl
+                                               };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+\hlsyl ...ox.center), scale=0.35,font=\scriptsize 
+                                                  ] \node (H) at (0,0) {HL};...
+l.107     \node (32)  [below of= 43, red] {\hlsyl
+                                               };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hlsyl ...r), scale=0.35,font=\scriptsize ] \node 
+                                                  (H) at (0,0) {HL}; \node (...
+l.107     \node (32)  [below of= 43, red] {\hlsyl
+                                               };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hlsyl ...ptsize ] \node (H) at (0,0) {HL}; \node 
+                                                  (sigma1) at (0,-0.8) {$\si...
+l.107     \node (32)  [below of= 43, red] {\hlsyl
+                                               };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107     \node (32)  [below of= 43, red] {\hlsyl
+                                               };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.108     \node
+              (33)  [below of= 44]{\htone};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108     \node (33)  [below of= 44]{\htone
+                                         };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+\htone ...ox.center), scale=0.35,font=\scriptsize 
+                                                  ] \node (H) at (0,0) {H}; ...
+l.108     \node (33)  [below of= 44]{\htone
+                                         };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\htone ...r), scale=0.35,font=\scriptsize ] \node 
+                                                  (H) at (0,0) {H}; \node (s...
+l.108     \node (33)  [below of= 44]{\htone
+                                         };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\htone ...iptsize ] \node (H) at (0,0) {H}; \node 
+                                                  (sigma) at (0,-0.8) {$\sig...
+l.108     \node (33)  [below of= 44]{\htone
+                                         };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\htone ... (sigma) at (0,-0.8) {$\sigma $}; \draw 
+                                                  [-] (H) -- (sigma); \end {...
+l.108     \node (33)  [below of= 44]{\htone
+                                         };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108     \node (33)  [below of= 44]{\htone
+                                         };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.109     \node
+              (34)  [right of= 33]  {\hsyll};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109     \node (34)  [right of= 33]  {\hsyll
+                                           };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+\hsyll ...ox.center), scale=0.35,font=\scriptsize 
+                                                  ]\node (H) at (0,0) {H}; \...
+l.109     \node (34)  [right of= 33]  {\hsyll
+                                           };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hsyll ...er), scale=0.35,font=\scriptsize ]\node 
+                                                  (H) at (0,0) {H}; \node (s...
+l.109     \node (34)  [right of= 33]  {\hsyll
+                                           };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\hsyll ...riptsize ]\node (H) at (0,0) {H}; \node 
+                                                  (sigma1) at (0,-0.8) {$\si...
+l.109     \node (34)  [right of= 33]  {\hsyll
+                                           };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109     \node (34)  [right of= 33]  {\hsyll
+                                           };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.110     \node
+              (21)  [below of= 32, red]  {HL};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.111     \node
+              (11)  [below right of= 21] {H};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.112     \node
+              (22)  [above right of= 11]  {\h};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment tikzpicture undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112     \node (22)  [above right of= 11]  {\h
+                                             };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+\h ...ng box.center), scale=0.35,font=\scriptsize 
+                                                  ] \node (H) at (0,0) {H}; ...
+l.112     \node (22)  [above right of= 11]  {\h
+                                             };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\h ...enter), scale=0.35,font=\scriptsize ] \node 
+                                                  (H) at (0,0) {H}; \node (s...
+l.112     \node (22)  [above right of= 11]  {\h
+                                             };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\h ...\scriptsize ] \node (H) at (0,0) {H}; \node 
+                                                  (sigma) at (0,-0.8) {$\sig...
+l.112     \node (22)  [above right of= 11]  {\h
+                                             };
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.112     \node (22)  [above right of= 11]  {\h
+                                             };
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.113     \node
+              (l)  [right of= 11] {L};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.114     \node
+              (00)  [below of= l] {$\emptyset$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.115     \node
+              (sig)  [right of= l] {$\sigma$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.116     \node
+             (dots1)  [above of= sig] {...};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.118  \node
+          [draw, red, fit={(21)}, inner sep=0.05pt] {};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 98--119
+[][scale=0.6,
+ []
+
+
+Overfull \hbox (6.0729pt too wide) in paragraph at lines 98--119
+\OML/cmm/m/it/10 $\nullfont ;
+ []
+
+
+Overfull \hbox (12.14581pt too wide) in paragraph at lines 98--119
+\OML/cmm/m/it/10 $\nullfont ;
+ []
+
+
+Overfull \hbox (6.0729pt too wide) in paragraph at lines 98--119
+\OML/cmm/m/it/10 $\nullfont ;
+ []
+
+
+Overfull \hbox (6.0729pt too wide) in paragraph at lines 98--119
+\OML/cmm/m/it/10 $\nullfont ;
+ []
+
+
+Overfull \hbox (6.0729pt too wide) in paragraph at lines 98--119
+0.8)$\OML/cmm/m/it/10 $\nullfont ;
+ []
+
+
+Overfull \hbox (6.0729pt too wide) in paragraph at lines 98--119
+\OML/cmm/m/it/10 $\nullfont ;
+ []
+
+
+Overfull \hbox (6.0729pt too wide) in paragraph at lines 98--119
+0.8)$\OML/cmm/m/it/10 $\nullfont ;
+ []
+
+
+Overfull \hbox (6.0729pt too wide) in paragraph at lines 98--119
+0.8)$\OML/cmm/m/it/10 $\nullfont ;
+ []
+
+
+Overfull \hbox (6.0729pt too wide) in paragraph at lines 98--119
+\OML/cmm/m/it/10 $\nullfont ;
+ []
+
+
+Overfull \hbox (6.0729pt too wide) in paragraph at lines 98--119
+\OML/cmm/m/it/10 $\nullfont ;
+ []
+
+
+Overfull \hbox (12.14581pt too wide) in paragraph at lines 98--119
+\OML/cmm/m/it/10 $\nullfont ;
+ []
+
+
+Overfull \hbox (6.0729pt too wide) in paragraph at lines 98--119
+\OML/cmm/m/it/10 $\nullfont ;
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 98--119
+\OMS/cmsy/m/n/10 ;$\nullfont ;
+ []
+
+
+Overfull \hbox (6.0729pt too wide) in paragraph at lines 98--119
+\OML/cmm/m/it/10 $\nullfont ;
+ []
+
+! Undefined control sequence.
+l.121  \draw
+          [red, ->] (21.west) -- ++(-0.5,0) node(G)[left] {\textit{G}};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.121  \draw[
+           red, ->] (21.west) -- ++(-0.5,0) node(G)[left] {\textit{G}};
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+luaotfload | db : Font names database loaded from /Users/lihan/Library/texlive/2
+023/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz
+Overfull \hbox (20.0pt too wide) in paragraph at lines 121--122
+[][red,
+ []
+
+
+Overfull \hbox (8.32pt too wide) in paragraph at lines 121--122
+\TU/lmr/m/it/10 G\nullfont ; 
+ []
+
+! Undefined control sequence.
+l.123  \node
+          [left]  at (-4,3) {$k=4$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123  \node[
+           left]  at (-4,3) {$k=4$};
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.124  \node
+          [left] at (-4,1.2) {$k=3$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.125  \node
+          [left] at (-4,-0.5) {$k=2$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.126  \node
+          [left] at(-4,-1.7) {$k=1$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.127  \node
+          [left] at (-4,-3.2) {$k=0$};
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 123--128
+[][left]
+ []
+
+
+Overfull \hbox (16.07635pt too wide) in paragraph at lines 123--128
+\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 123--128
+\OT1/cmr/m/n/10 4$\nullfont ;
+ []
+
+
+Overfull \hbox (16.07635pt too wide) in paragraph at lines 123--128
+\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 123--128
+\OT1/cmr/m/n/10 3$\nullfont ;
+ []
+
+
+Overfull \hbox (16.07635pt too wide) in paragraph at lines 123--128
+\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 123--128
+\OT1/cmr/m/n/10 2$\nullfont ;
+ []
+
+
+Overfull \hbox (16.07635pt too wide) in paragraph at lines 123--128
+\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 123--128
+\OT1/cmr/m/n/10 1$\nullfont ;
+ []
+
+
+Overfull \hbox (16.07635pt too wide) in paragraph at lines 123--128
+\OML/cmm/m/it/10 k \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 123--128
+\OT1/cmr/m/n/10 0$\nullfont ; 
+ []
+
+! Undefined control sequence.
+l.131     \draw
+              (00) -- (l) ;
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131     \draw (
+               00) -- (l) ;
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.132     \draw
+              (00) -- (sig);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.133     \draw
+              (00) -- (11);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.134     \draw
+              (11) -- (21) -- (31);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.135     \draw
+              (21) -- (32) -- (42);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.136     \draw
+              (11) -- (22) -- (34) -- (46);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.137     \draw
+              (22) -- (32) -- (43);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.138     \draw
+              (22) -- (33) -- (44);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.139     \draw
+              (22) -- (34) -- (45);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.140     \draw
+              (31) -- (41);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.141     \draw
+              (31) -- (42);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.142     \draw
+              (32) -- (44);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.143     \draw
+              (33) -- (45);
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 131--144
+[](00)
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{tikzpicture}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 \end{tikzpicture}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> lattice.tex
+            
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 36 strings out of 478285
+ 100000,1977958 words of node,token memory allocated 16140 words of node memory still in use:
+   56 hlist, 26 disc, 4 local_par, 1 dir, 22 math, 398 glue, 24 kern, 19 penalty
+, 1665 glyph, 72 attribute, 39 glue_spec, 72 attribute_list nodes
+   avail lists: 2:2,3:1,4:53,5:2,7:55,8:3,10:52
+ 20360 multiletter control sequences out of 65536+600000
+ 25 fonts using 1345055 bytes
+ 19i,1n,12p,144b,68s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,191 @@
+%%% This file is the preamble for the Pomona Linguistics Paper Template. 
+%For stacking text, used here in autosegmental diagrams
+\usepackage{stackengine}
+
+%To combine rows in tables
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{subcaption}
+
+%geometry helps manage margins, among other things.
+\usepackage[margin =1in]{geometry}
+\usepackage{tabularx}
+%used to draw the bullet below
+\usepackage{graphicx}
+
+%Gives some extra formatting options, e.g. underlining/strikeout
+\usepackage{ulem}
+
+%For putting links into papers, also helps make cross-references in the paper smart references
+\usepackage[colorlinks = true,
+linkcolor = blue,
+urlcolor  = blue,
+citecolor = blue,
+anchorcolor = blue]{hyperref} %smarter cross-references, these options turn links blue
+
+%Use package/command below to create a double-spaced document, if you want one. Uncomment BOTH the package and the command (\doublespacing) to create a doublespaced document, or leave them as is to have a single-spaced document.
+\usepackage{setspace}
+\onehalfspacing
+
+%paragraph formatting
+\usepackage[parfill]{parskip}
+\setlength{\parindent}{20pt}
+\usepackage{titlesec}
+
+%to position tables where I want
+\usepackage{float}
+
+
+%Basic math symbols 
+\usepackage{pifont}
+\usepackage{amssymb}
+%\usepackage{nath}
+
+%%%Gives shortcuts for glossing. The use of this package is NOT explained in the Quick Reference Guide, but the documentation is on CTAN for those that are interested. MJKD finds it handy for glossing. (https://ctan.org/pkg/leipzig?lang=en)
+\usepackage{leipzig}
+
+%Tables
+\usepackage{caption} %For table captions
+\usepackage{booktabs} %helps format tables
+
+%For citations and bibliography - as of 9.1.2019 we don't explain citations in this Quick Reference Guide, but Pedro Martin's tutorial does (see links in the Guide).
+\usepackage{natbib}
+
+%Fonts
+\usepackage{libertine}
+\setmonofont[Scale=0.8]{Courier New Bold}
+\usepackage{tipa}
+
+%highlights text with \hl{text}
+\usepackage{color, soul}
+
+%%% 
+% Customizing appearance of to-do notes
+\usepackage[color=blue!20, bordercolor=blue]{todonotes}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\usepackage{verbatim} % for verbatim text
+\usepackage{adjustbox} % for adjusting row height
+\usepackage{array} % for centering text vertically in cells
+
+%To combine rows in tables
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{setspace}
+%\doublespacing 
+
+
+%Drawing Syntax Trees
+\usepackage[linguistics]{forest}
+
+%This specifies some formatting for the forest trees to make them nicer to look at
+\forestset{
+	asr/.style={
+		for tree={
+			align=center,
+			parent anchor=south,
+			%   child anchor=north,
+			s sep=4mm,
+			l sep=6mm
+		}
+	},
+	strike/.style={
+		edge label={
+			node[midway, sloped, rotate=90] {=}
+		}
+	}
+}
+
+%These are useful for some of the details of arrows and other parts of syntax diagrams
+\usetikzlibrary{positioning} %I've included this for the sake of making figures!
+\usepackage{pstricks}
+\usepackage{pst-node}
+
+
+
+%% For numbered and glossed examples %%
+\usepackage{gb4e}
+
+
+
+\usepackage{tikz}
+
+\newcommand{\circled}[1]{\begin{tikzpicture}[baseline=(word.base)]
+	\node[draw, rounded corners, text height=8pt, text depth=2pt, inner sep=2pt, outer sep=0pt, use as bounding box] (word) {#1};
+\end{tikzpicture}
+}
+
+\tikzset{
+	state/.style={circle, draw, minimum size=20pt, inner sep=5pt}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Useful Ling Shortcuts
+
+\RequirePackage{leipzig}
+%\RequirePackage{mathtools} % for \mathrlap
+
+% % % Shortcuts  (borrowed from JZ, I'm still unsure exactly what xspace requires)
+\RequirePackage{xspace}
+\xspaceaddexceptions{]\}}
+
+%This makes the \emptyset command be a nicer one
+\let\oldemptyset\emptyset
+\let\emptyset\varnothing
+\newcommand{\nothing}{$\emptyset$}
+
+%Not all of these are explained in the Quick Reference Guide, but they are here bc they are relevant to some of our students.
+\newcommand{\1}{\rlap{$'$}\xspace}
+\newcommand{\0}{\rlap{\textsuperscript{$Ë{\circ}$}}\xspace}
+\newcommand{\Lb}[1]{$\text{[}_{\text{#1}}$ } %A more convenient left bracket
+\newcommand{\Rb}[1]{$\text{]}_{\text{#1}}$ } %A more convenient left bracket
+\newcommand{\gap}{\underline{\hspace{1.2em}}}
+\newcommand{\vP}{\emph{v}P}
+\newcommand{\lilv}{\emph{v}}
+\newcommand{\Abar}{A$'$-} %A more convenient A-bar notation
+\newcommand{\ph}{$\varphi$\xspace} %A more convenient phi
+\newcommand{\pro}{\emph{pro}\xspace}
+\newcommand{\subs}[1]{\textsubscript{#1}} %A more convenient subscript
+%\newcommand{\hd}{$^{\circ}$\xspace} %Symbol for printing head / degree symbol
+\newcommand{\spells}{$\Longleftrightarrow$} %spellout arrow for morph spellout rules
+\newcommand{\tr}[1]{\textit{t}\textsubscript{\textit{#1}}} %easy traces with subscript
+\newcommand{\supers}[1]{\textsuperscript{#1}}
+\newcommand{\type}[1]{\ensuremath{\langle{#1}\rangle}}% Type brackets for type-theory 	 ... \type{e,\type{s,t}}, from linguistics package			
+\newcommand{\nl}{\ensuremath{\varnothing}}	  % =null; Null symbol ... \nl  (\null is already used) % Requires amssymb package, or a class that calls it %From Linguistics package
+
+%This creates the command \bigcdot which is nice as a bullet for the conventional implicature formalism. Adapted from here: https://tex.stackexchange.com/questions/235118/making-a-thicker-cdot-for-dot-product-that-is-thinner-than-bullet
+\makeatletter
+\newcommand*\bigcdot{\mathpalette\bigcdot@{1}}
+\newcommand*\bigcdot@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
+\makeatother
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%A couple of packages that seemed to prefer being called toward the end of the preamble
+
+%This package provides macros for typesetting SPE-style phonological rules.
+\usepackage{phonrule}
+
+%For using Greek letters outside of math mode.
+\usepackage{textgreek}
+
+
+%Random, lets us use the XeLaTeX logo. Not important to the template at all.
+\usepackage{metalogo}
+
+%The packages and tikz libraries below are used to generate the arrows on forest trees and linear diagrams that are explained in our Arrows explainer. https://www.overleaf.com/latex/templates/arrows-for-syntax-diagrams-with-forest/xjyvcszgcspv
+
+\usetikzlibrary{positioning} %does something for the positioning of arrows and I can't remember what
+\usetikzlibrary{arrows,arrows.meta} %gives extra details for arrows (specifically, the tips of arrows)
+\usepackage{pstricks} %for horizontal arrows in linear diagrams
+\usepackage{pst-node} %for placing nodes in horizontal arrow diagrams
+
+\usepackage{forest}

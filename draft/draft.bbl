@@ -1,0 +1,149 @@
+\begin{thebibliography}{}
+
+\bibitem[Awagana et~al., 2009]{wold-4}
+Awagana, A., Wolff, H.~E., and Löhr, D. (2009).
+\newblock Hausa.
+\newblock In Haspelmath, M. and Tadmor, U., editors, {\em World Loanword
+  Database}. Max Planck Institute for Evolutionary Anthropology, Leipzig.
+
+\bibitem[Cahill, 2007]{cahill2007more}
+Cahill, M. (2007).
+\newblock More universals of tone.
+\newblock {\em Ms. SIL, ms}.
+
+\bibitem[Chandlee et~al., 2019]{chandleeLearningPartiallyOrdered2019}
+Chandlee, J., Eyraud, R., Heinz, J., Jardine, A., and Rawski, J. (2019).
+\newblock Learning with {Partially} {Ordered} {Representations}.
+\newblock arXiv:1906.07886 [cs].
+
+\bibitem[Chandlee and Jardine, 2019]{chandlee2019autosegmental}
+Chandlee, J. and Jardine, A. (2019).
+\newblock Autosegmental input strictly local functions.
+\newblock {\em Transactions of the Association for Computational Linguistics},
+  7:157--168.
+
+\bibitem[Coleman and Local, 1991]{coleman1991no}
+Coleman, J. and Local, J. (1991).
+\newblock The" no crossing constraint" in autosegmental phonology.
+\newblock {\em Linguistics and Philosophy}, pages 295--338.
+
+\bibitem[Goldsmith, 1976]{goldsmith1976autosegmental}
+Goldsmith, J.~A. (1976).
+\newblock {\em Autosegmental phonology}.
+\newblock PhD thesis, Massachusetts Institute of Technology.
+
+\bibitem[Hammond, 1988]{hammond1988deriving}
+Hammond, M. (1988).
+\newblock On deriving the well-formedness condition.
+\newblock {\em Linguistic Inquiry}, 19(2):319--325.
+
+\bibitem[Haspelmath and Tadmor, 2009]{wold}
+Haspelmath, M. and Tadmor, U., editors (2009).
+\newblock {\em WOLD}.
+\newblock Max Planck Institute for Evolutionary Anthropology, Leipzig.
+
+\bibitem[Heinz, 2021]{heinzdcp}
+Heinz, J. (2021).
+\newblock {\em Doing Phonology Computationally}.
+
+\bibitem[Hyman, 2011]{hyman2011tone}
+Hyman, L.~M. (2011).
+\newblock Tone: Is it different?
+\newblock {\em The handbook of phonological theory}, pages 197--239.
+
+\bibitem[Hyman and Schuh, 1974]{hyman1974universals}
+Hyman, L.~M. and Schuh, R.~G. (1974).
+\newblock Universals of tone rules: Evidence from west africa.
+\newblock {\em Linguistic inquiry}, 5(1):81--115.
+
+\bibitem[Jardine, 2016]{jardineComputationallyToneDifferent2016}
+Jardine, A. (2016).
+\newblock Computationally, tone is different.
+\newblock {\em Phonology}, 33(2):247--283.
+
+\bibitem[Jardine, 2017]{jardineLocalNatureToneassociation2017}
+Jardine, A. (2017).
+\newblock The local nature of tone-association patterns.
+\newblock {\em Phonology}, 34(2):363--384.
+
+\bibitem[Jardine and Heinz, 2015]{jardine-heinz-2015-concatenation}
+Jardine, A. and Heinz, J. (2015).
+\newblock A concatenation operation to derive autosegmental graphs.
+\newblock In Kuhlmann, M., Kanazawa, M., and Kobele, G.~M., editors, {\em
+  Proceedings of the 14th Meeting on the Mathematics of Language ({M}o{L}
+  2015)}, pages 139--151, Chicago, USA. Association for Computational
+  Linguistics.
+
+\bibitem[Leben, 1971]{Leben}
+Leben, W.~R. (1971).
+\newblock {The morphophonemics of tone in Hausa}.
+\newblock In {\em Papers in African Linguistics}, pages 201--218.
+
+\bibitem[Leben, 2017]{leben2017tone}
+Leben, W.~R. (2017).
+\newblock Tone and length in mende.
+\newblock {\em UCLA Working Papers in Phonetics (Memorial volume for Russ
+  Schuh)}.
+
+\bibitem[Newman, 2002]{Newmanbook}
+Newman, P. (2002).
+\newblock {\em {The Hausa Language: An Encyclopedic Reference Grammar}}, volume
+  122.
+\newblock Yale University Press, New Haven, US.
+
+\bibitem[Odden, 1994]{odden1994adjacency}
+Odden, D. (1994).
+\newblock Adjacency parameters in phonology.
+\newblock {\em Language}, pages 289--330.
+
+\bibitem[Odden, 2013]{oddenbook}
+Odden, D. (2013).
+\newblock {\em Introducing phonology}.
+\newblock Cambridge University Press.
+
+\bibitem[Rogers and Lambert, 2019]{rogers2019extracting}
+Rogers, J. and Lambert, D. (2019).
+\newblock Extracting subregular constraints from regular stringsets.
+\newblock {\em Journal of Language Modelling}, 7(2):143--176.
+
+\bibitem[Strother-Garcia et~al., 2017]{strother2017using}
+Strother-Garcia, K., Heinz, J., and Hwangbo, H.~J. (2017).
+\newblock Using model theory for grammatical inference: a case study from
+  phonology.
+\newblock In {\em International Conference on Grammatical Inference}, pages
+  66--78. PMLR.
+
+\bibitem[Vu et~al., 2018]{vu2018statistical}
+Vu, M.~H., Zehfroosh, A., Strother-Garcia, K., Sebok, M., Heinz, J., and
+  Tanner, H.~G. (2018).
+\newblock Statistical relational learning with unconventional string models.
+\newblock {\em Frontiers in Robotics and AI}, 5:76.
+
+\bibitem[Wang, 1967]{sy1967phonological}
+Wang, W. S.-Y. (1967).
+\newblock Phonological features of tone.
+\newblock {\em International journal of American linguistics}, 33(2):93--105.
+
+\bibitem[Yip, 2002]{yip2002tone}
+Yip, M. (2002).
+\newblock {\em Tone}.
+\newblock Cambridge University Press.
+
+\bibitem[Zhang, 2009]{zhang2009contour}
+Zhang, J. (2009).
+\newblock Contour tone distribution is not an artifact of tonal melody mapping.
+\newblock {\em Studies in the Linguistic Sciences}, 33(1/2):73--132.
+
+\bibitem[Zhu, 2020]{zhu2020extending}
+Zhu, Y. (2020).
+\newblock Extending the autosegmental input strictly local framework: Metrical
+  dominance and floating tones.
+\newblock In {\em Proceedings of the Society for Computation in Linguistics
+  2020}, pages 127--135.
+
+\bibitem[Zoll, 2003]{zoll2003optimal}
+Zoll, C. (2003).
+\newblock Optimal tone mapping.
+\newblock {\em Linguistic inquiry}, 34(2):225--268.
+
+\end{thebibliography}

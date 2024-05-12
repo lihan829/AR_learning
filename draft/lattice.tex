@@ -1,0 +1,149 @@
+% lattice.tex
+%\documentclass{standalone}
+%\usepackage{tikz}
+%\usetikzlibrary{fit} % Importing the fit library
+%\input{formatting}
+
+\newcommand{\h}{
+    \begin{tikzpicture}[baseline=(current bounding box.center), scale=0.35,font=\scriptsize] % Adjust scale and font size as needed
+        \node (H) at (0,0) {H};
+        \node (sigma) at (0,-0.8) {$\sigma$};
+        %\draw[-] (H) -- (sigma);
+    \end{tikzpicture}
+}
+
+\newcommand{\htone}{
+    \begin{tikzpicture}[baseline=(current bounding box.center), scale=0.35,font=\scriptsize] % Adjust scale and font size as needed
+        \node (H) at (0,0) {H};
+        \node (sigma) at (0,-0.8) {$\sigma$};
+        %\node (sigma) at (0.25,-0.5){$\sigma$};
+        \draw[-] (H) -- (sigma);
+    \end{tikzpicture}
+}
+
+\newcommand{\ltone}{
+    \begin{tikzpicture}[baseline=(current bounding box.center), scale=0.35,font=\scriptsize] % Adjust scale and font size as needed
+        \node (L) at (0,0) {L};
+        \node (sigma) at (0,-0.8) {$\sigma$};
+        %\draw[-] (H) -- (sigma);
+    \end{tikzpicture}
+}
+
+\newcommand{\hsyll}{
+    \begin{tikzpicture}[baseline=(current bounding box.center), scale=0.35,font=\scriptsize]% Adjust scale and font size as needed
+        \node (H) at (0,0) {H};
+        \node (sigma1) at (0,-0.8) {$\sigma\sigma$};
+        %\node (sigma) at (0.25,-0.5){$\sigma$};
+        %\draw[-] (H) -- (sigma);
+    \end{tikzpicture}
+}
+
+\newcommand{\hlsyl}{
+    \begin{tikzpicture}[baseline=(current bounding box.center), scale=0.35,font=\scriptsize] % Adjust scale and font size as needed
+        \node (H) at (0,0) {HL};
+        \node (sigma1) at (0,-0.8) {$\sigma$};
+        %\node (sigma) at (0.25,-0.5){$\sigma$};
+        %\draw[-] (H) -- (sigma);
+    \end{tikzpicture}
+}
+
+\newcommand{\hlhs}{
+    \begin{tikzpicture}[baseline=(current bounding box.center), scale=0.35,font=\scriptsize] % Adjust scale and font size as needed
+        \node (H) at (0,0) {HLH};
+        \node (sigma1) at (0,-0.8) {$\sigma$};
+        %\node (sigma) at (0.25,-0.5){$\sigma$};
+        %\draw[-] (H) -- (sigma);
+    \end{tikzpicture}
+}
+
+\newcommand{\hlss}{
+    \begin{tikzpicture}[baseline=(current bounding box.center), scale=0.35,font=\scriptsize] % Adjust scale and font size as needed
+        \node (H) at (0,0) {HL};
+        \node (sigma1) at (0,-0.8) {$\sigma\sigma$};
+        %\node (sigma) at (0.25,-0.5){$\sigma$};
+        %\draw[-] (H) -- (sigma);
+    \end{tikzpicture}
+}
+
+\newcommand{\hsl}{
+    \begin{tikzpicture}[baseline=(current bounding box.center), scale=0.35,font=\scriptsize] % Adjust scale and font size as needed
+        \node (H) at (0,0) {H};
+        \node (L) at (0.5,0) {L};
+        \node (sigma) at (0,-0.8) {$\sigma$};
+        %\node (sigma) at (0.25,-0.5){$\sigma$};
+        \draw[-] (H) -- (sigma);
+    \end{tikzpicture}
+}
+
+\newcommand{\htones}{
+    \begin{tikzpicture}[baseline=(current bounding box.center), scale=0.35,font=\scriptsize] % Adjust scale and font size as needed
+        \node (H) at (0,0) {H};
+        \node (sigma1) at (0,-0.8) {$\sigma$};
+        \node (sigma2) at (0.5,-0.8){$\sigma$};
+        \draw[-] (H) -- (sigma1);
+    \end{tikzpicture}
+}
+
+\newcommand{\hsss}{
+    \begin{tikzpicture}[baseline=(current bounding box.center), scale=0.35,font=\scriptsize] % Adjust scale and font size as needed
+        \node (H) at (0,0) {H};
+        \node (sigma1) at (0,-0.8) {$\sigma$};
+        \node (sigma2) at (0.35,-0.8){$\sigma$};
+        \node (sigma3) at (0.7,-0.8){$\sigma$};
+    \end{tikzpicture}
+}
+
+
+%\begin{document}
+\begin{tikzpicture}[scale=0.6, font=\scriptsize]
+    % Define nodes
+    \node (41)  [red] at (-3,3)  {HLHL};
+    \node (42)  [right of= 41, red]  {\hlhs};
+    \node (43)  [right of= 42, red]  {\hlss};
+    \node (44)  [right of= 43, red]  {\hsl};
+    \node (45)  [right of= 44]  {\htones};
+    \node (46)  [right of= 45] {\hsss};
+    \node (31)  [below of= 42, red]  {HLH};
+    \node (32)  [below of= 43, red] {\hlsyl};
+    \node (33)  [below of= 44]{\htone};
+    \node (34)  [right of= 33]  {\hsyll};
+    \node (21)  [below of= 32, red]  {HL};
+    \node (11)  [below right of= 21] {H};
+    \node (22)  [above right of= 11]  {\h};
+    \node (l)  [right of= 11] {L};
+    \node (00)  [below of= l] {$\emptyset$};
+    \node (sig)  [right of= l] {$\sigma$};
+    \node(dots1)  [above of= sig] {...};
+ % Box around node "HL"
+ \node[draw, red, fit={(21)}, inner sep=0.05pt] {}; 
+ 
+ % Small left arrow pointing to "G"
+ \draw[red, ->] (21.west) -- ++(-0.5,0) node(G)[left] {\textit{G}};
+ 
+ \node[left]  at (-4,3) {$k=4$};
+ \node[left] at (-4,1.2) {$k=3$};
+ \node[left] at (-4,-0.5) {$k=2$};
+ \node[left] at(-4,-1.7) {$k=1$};
+ \node[left] at (-4,-3.2) {$k=0$};    
+     
+
+    % Draw connections
+    \draw (00) -- (l) ;
+    \draw (00) -- (sig);
+    \draw (00) -- (11);
+    \draw (11) -- (21) -- (31);
+    \draw (21) -- (32) -- (42);
+    \draw (11) -- (22) -- (34) -- (46);
+    \draw (22) -- (32) -- (43);
+    \draw (22) -- (33) -- (44);
+    \draw (22) -- (34) -- (45);
+    \draw (31) -- (41);
+    \draw (31) -- (42);
+    \draw (32) -- (44);
+    \draw (33) -- (45);
+
+    
+        % Add labels on the left
+
+\end{tikzpicture}
+%\end{document}

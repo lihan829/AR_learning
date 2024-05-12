@@ -1,0 +1,16 @@
+digraph {
+	{
+		rank=source
+		rankdir=LR
+		Mel_1 [label=H shape=circle]
+	}
+	{
+		rank=sink
+		rankdir=LR
+		Syl_0 [label="σ" shape=circle]
+		Syl_1 [label="σ" shape=circle]
+		Syl_0 -> Syl_1 [dir=none]
+	}
+	Mel_1 -> Syl_0 [dir=none]
+	Mel_1 -> Syl_1 [dir=none]
+}
