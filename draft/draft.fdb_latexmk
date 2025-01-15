@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex draft"] 1736050203.74929 "draft.aux" "draft.bbl" "draft" 1736050208.65737 2
+["bibtex draft"] 1736566147.13998 "draft.aux" "draft.bbl" "draft" 1736566147.22991 2
   "./refs.bib" 1735681857.82034 27525 3782b250678b740b1f4035a06c912eaa ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "draft.aux" 1736050208.30626 16981 1da4e83cf6267f8e7ef8375422f8514d "pdflatex"
+  "draft.aux" 1736566147.13766 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   (generated)
   "draft.bbl"
   "draft.blg"
   (rewritten before read)
-["pdflatex"] 1736050206.61403 "/Users/hanli/Documents/GitHub/AR_learning/draft/draft.tex" "draft.pdf" "draft" 1736050208.65751 2
-  "/Users/hanli/Documents/GitHub/AR_learning/draft/draft.tex" 1735681857.81033 90018 c14136e2e17eb09b1ba7902be3d192bc ""
+["pdflatex"] 1736566144.9025 "/Users/hanli/Documents/Documents - Han’s MacBook Air/GitHub/AR_learning/draft/draft.tex" "draft.pdf" "draft" 1736566147.05467 2
+  "/Users/hanli/Documents/Documents - Han’s MacBook Air/GitHub/AR_learning/draft/draft.tex" 1735681857.81033 90018 c14136e2e17eb09b1ba7902be3d192bc ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_3dk467.enc" 1558472472 2823 9669300fd867bc8e1e320d5385959bec ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_kijugd.enc" 1490131464 2822 11e839d2bbb939844844619b2cff7df6 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/libertine/lbtn_lyu3x3.enc" 1490131464 2835 bfce207f80837ef8737b6a788d8bc760 ""
@@ -334,10 +334,10 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1732951590.78633 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1732951572 8221436 448487936a8fdf9cd0e60b04b0dcd6ff ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "draft.aux" 1736050208.30626 16981 1da4e83cf6267f8e7ef8375422f8514d "pdflatex"
-  "draft.bbl" 1736050204.4255 5388 43a40bdebf1075fb5014c98765a4982f "bibtex draft"
+  "draft.aux" 1736566147.13766 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "draft.bbl" 1736566147.22889 0 d41d8cd98f00b204e9800998ecf8427e "bibtex draft"
   "draft.glsdefs" 1735681857.80748 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "draft.out" 1736050208.30714 4164 2d7564e5460f50747c6bf98b6ed7b60d "pdflatex"
+  "draft.out" 0 -1 0 "pdflatex"
   "draft.tex" 1735681857.81033 90018 c14136e2e17eb09b1ba7902be3d192bc ""
   "figs/HLinitial.png" 1735681857.81072 7255 eda0f7ccd8d5672c737b224a6ae747eb ""
   "figs/L.png" 1735681857.81086 4366 c089a7f38c80bc73a114bafa1e90f899 ""
