@@ -74,7 +74,7 @@ hàn.káa.kàa
 kúr.cí.yáa
 múu.jì.yáa
 màa.gée
-ɓéer.áa
+ɓée.ráa
 kíi.fíi
 ƙée.gée
 ƙáa.yàa
@@ -366,7 +366,7 @@ bàb.bá
 dóo.góo
 gà.jée.rée
 ɓúɓ.ɓú.kée.kèe
-sìir.̃íir.̃ìi
+sìi.ríi.rìi
 ƙúu.gì.yáa
 kú.sùr.wáa
 gí.cì.yée
@@ -377,7 +377,7 @@ sáa.kèe
 ɗá.yá
 hú.ɗú
 bì.yár̃
-tár.̃à
+tá.rà
 ɗà.ríi
 ƙír.gàa
 dú.kà
@@ -402,7 +402,7 @@ mà.rài.cée
 gòo.bé
 jíi.bí
 jí.yà
-hùn.túur.̃ùu
+hùn.túu.rùu
 ráa.níi
 dú.ƙún.ƙù.née
 sán.sà.náa
@@ -411,7 +411,7 @@ dúu.bàa
 kàl.láa
 núu.nàa
 bá.ƙíi
-kóor.̃èe
+kóo.rèe
 ràa.wá.yàa
 tá.ɓàa
 dáa.kù.sáa
@@ -457,7 +457,7 @@ wàa
 múr.yàa
 rá.ɗàa
 gùn.gù.níi
-ì.’ì.náa
+ì.ì.náa
 cêe
 fá.ɗìi
 gá.yàa
@@ -538,4 +538,4 @@ bí.sà
 fár.kóo
 sóo.sàa
 cí.kìi
-dáas.kà.rée
+dás.kà.rée
