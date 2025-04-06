@@ -1,0 +1,15 @@
+digraph {
+	nodesep=0.01 ranksep=0.1
+	{
+		nodesep=0.01 rank=source rankdir=LR
+		Mel_1 [label=H shape=plaintext]
+		Mel_2 [label=L shape=plaintext]
+		Mel_3 [label=H shape=plaintext]
+	}
+	Syl_1 [label="σ_l" shape=plaintext]
+	Mel_1 -> Syl_1 [dir=none]
+	Syl_1 [label="σ_h" shape=plaintext]
+	Mel_2 -> Syl_1 [dir=none]
+	Syl_2 [label="σ_l" shape=plaintext]
+	Mel_3 -> Syl_2 [dir=none]
+}
